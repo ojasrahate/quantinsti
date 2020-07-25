@@ -8,8 +8,8 @@ driver.get "https://quantra.quantinsti.com/"
 login = driver.find_element(:css , '.item.signup-link')
 login.click
 sleep 5
-driver.find_element(:name , 'email').send_keys "ojas_rahate@yahoo.co.in"
-driver.find_element(:name , 'password').send_keys "xabialonso14"
+driver.find_element(:name , 'email').send_keys  ENV['email']
+driver.find_element(:name , 'password').send_keys  ENV['password']
 driver.find_element(:xpath , "//button[@type='submit']").click
 sleep 10
 driver.find_element(:css , ".item.menu__link--toggle").click
