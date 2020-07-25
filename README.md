@@ -10,4 +10,4 @@ https://gorails.com/setup/windows/10
 
 Running ruby program
 
-ruby <nname_of_program>.rb
+ruby <name_of_program>.rb
