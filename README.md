@@ -11,3 +11,11 @@ https://gorails.com/setup/windows/10
 Running ruby program
 
 ruby <name_of_program>.rb
+
+Setting Environment Variables
+
+Windows:
+> set TEST=value
+
+OS X or Linux:
+$ export TEST=value
